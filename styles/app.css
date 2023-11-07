@@ -87,4 +87,8 @@ p {
     padding: 0;
     text-align: center;
   }
+
+  .portfolio-picture {
+    display: none;
+  }
 }
