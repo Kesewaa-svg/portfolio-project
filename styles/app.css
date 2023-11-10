@@ -96,6 +96,37 @@ p {
   padding: 120px 60px;
 }
 
+.logo {
+  max-height: 90px;
+}
+
+nav {
+  padding: 20px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: grey;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--identifier-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 50px !important;
@@ -120,5 +151,10 @@ p {
 
   .portfolio-picture {
     display: none;
+  }
+
+  nav a {
+    font-size: 14px;
+    margin: 5px;
   }
 }
