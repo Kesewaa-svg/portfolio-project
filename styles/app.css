@@ -11,7 +11,8 @@ body {
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -25,7 +26,7 @@ h2 {
   font-size: 64px;
 }
 
-h3 {
+h4 {
   font-size: 48px !important;
 }
 
@@ -147,6 +148,7 @@ footer .email-link {
 
 footer .email-link:hover {
   color: var(--identifier-color);
+  text-decoration: underline;
 }
 
 footer .contact-display {
@@ -208,5 +210,17 @@ footer .social-links a:hover {
 
   footer .contact-display {
     padding: 30px;
+  }
+
+  footer .email-link {
+    font-size: 18px;
+  }
+  .skill-set {
+    font-size: 18px;
+    margin: 10px 30px;
+  }
+
+  .skills-image {
+    font-size: 18px;
   }
 }
