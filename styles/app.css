@@ -3,6 +3,7 @@
   --heading-font-family: "Playfair Display", serif;
   --secondary-font-family: "Poppins", serif;
   --assent-color: #fdf6c4;
+  --social-color: plum;
 }
 
 body {
@@ -10,7 +11,8 @@ body {
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -22,6 +24,10 @@ h1 {
 
 h2 {
   font-size: 64px;
+}
+
+h4 {
+  font-size: 48px !important;
 }
 
 p {
@@ -127,6 +133,42 @@ nav li.active a {
   color: var(--identifier-color);
 }
 
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--identifier-color);
+}
+
+footer .contact-display {
+  background-color: var(--assent-color);
+  padding: 30px 100px;
+  border-radius: 15px;
+}
+
+footer .contact-display p {
+  margin: 0;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--identifier-color);
+  background-color: lightgoldenrodyellow;
+  padding: 10px 15px;
+
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--social-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 50px !important;
@@ -134,6 +176,14 @@ nav li.active a {
   }
   h2 {
     font-size: 45px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  .btn {
+    font-size: 18px;
   }
 
   .frames {
@@ -156,5 +206,9 @@ nav li.active a {
   nav a {
     font-size: 14px;
     margin: 5px;
+  }
+
+  footer .contact-display {
+    padding: 30px;
   }
 }
