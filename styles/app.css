@@ -105,7 +105,14 @@ p {
 .logo {
   max-height: 90px;
 }
+.skill-set {
+  font-size: 30px;
+  color: blueviolet;
+}
 
+.skills-image {
+  font-size: 48px !important;
+}
 nav {
   padding: 20px;
 }
@@ -180,10 +187,6 @@ footer .social-links a:hover {
 
   h4 {
     font-size: 24px;
-  }
-
-  .btn {
-    font-size: 18px;
   }
 
   .frames {
